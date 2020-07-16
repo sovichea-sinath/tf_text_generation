@@ -4,7 +4,7 @@ import numpy as np
 import os
 import time
 
-path_to_file = 'allFiles.txt'
+path_to_file = 'lotr.txt'
 
 # Read, then decode for py2 compat.
 text = open(path_to_file, 'rb').read().lower().decode(encoding='utf-8')
